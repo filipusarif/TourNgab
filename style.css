@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Raleway:ital,wght@0,700;1,400&display=swap');
+
+/* all */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+html {
+    background-color: rgb(192, 192, 192);
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif; 
+}
+
+.blue{
+    color:rgb(1, 55, 94);
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+/* Scroll */
+body::-webkit-scrollbar {
+    width: 5px;
+    color: rgb(0, 110, 255);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(0, 110, 255);
+}
+
+/* All Section */
+.section {
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(192, 192, 192);
+}
+
+
+.scrollspy-example {
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+}
+
+/* hero  Start*/
+
+#hero {background-image:url(asset/bg.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    }
+
+.containerHero {
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+
+.kotak {
+    height: 25%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.473), rgb(192, 192, 192));
+}
+
+/* footer */
+
+.footer {
+    min-height: 25vh;
+    width: 100%;
+    background-color: rgb(2, 32, 53);
+}
